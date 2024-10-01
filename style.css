@@ -95,14 +95,23 @@ p{
     margin-top: 70px;
     
 }
-.image{
+
+.row{
     display: flex;
-    width: 20px;
-    height: 30px;
-    float: left;
-   
+    flex-wrap: wrap;
 }
-.footer p{
-    padding: 20px;
-    display: ;
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    text-transform: capitalize;
 }
